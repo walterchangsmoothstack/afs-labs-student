@@ -23,6 +23,6 @@ spec:
         - secretRef:
             name: db-secret
         name: db-deployment
-        image: harbor.dev.afsmtddso.com/wchang-harbor-project/db:971c881-02cc654
+        image: harbor.dev.afsmtddso.com/wchang-harbor-project/db:d3cd208-02cc654
         ports:
         - containerPort: 5432
